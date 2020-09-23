@@ -1,0 +1,35 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_view_name"
+        android:layout_alignParentLeft="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_view_id"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/text_view_name"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_edit"
+        android:text="Edit"
+        android:layout_alignParentRight="true"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button_delete"
+        android:text="Delete"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/button_edit"/>
+
+
+
+
+</RelativeLayout>
